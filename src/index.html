@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                Voce foi convidado para o meu aniversário que acontecerá em <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Rua aaa, 111, Parque bbb
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Data</b>
+                        21/06/2024 às 20h
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Estacionamento</b>
+                        Rua ccc, 222
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirme sua presença
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--sobreLocal">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Sobre o local</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa saepe quo aliquam ea architecto, accusamus culpa, recusandae expedita nisi voluptatem quibusdam sit beatae rerum aperiam alias tempore rem asperiores nulla!
+                </p>
+            </div>
+            <img class="event__image" src=".//images/local.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="event event--presencas event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Presencas confirmadas</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa saepe quo aliquam ea architecto, accusamus culpa, recusandae expedita nisi voluptatem quibusdam sit beatae rerum aperiam alias tempore rem asperiores nulla!
+                </p>
+            </div>
+            <img class="event__image" src=".//images/presencas.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="event event--cardapio">
+        <div class="container"  data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Food & Drinks</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa saepe quo aliquam ea architecto, accusamus culpa, recusandae expedita nisi voluptatem quibusdam sit beatae rerum aperiam alias tempore rem asperiores nulla!
+                </p>
+            </div>
+            <img class="event__image" src=".//images/cardapio.jpg" alt="">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
